@@ -265,9 +265,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Friendship Field Guide home">
+        <a className="brand" href="#top" aria-label="Mandelbro home">
           <span className="brand-mark">4</span>
-          <span>Friendship Field Guide</span>
+          <span>Mandelbro</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#cast">The four</a>
