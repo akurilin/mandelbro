@@ -18,21 +18,21 @@ const people = [
   {
     name: "Dan",
     monogram: "DA",
-    role: "The catalyst & connector",
+    role: "The convener & temperature-taker",
     accent: "coral",
     types: "2 · 7 · 3",
     tagline: "Turns a quiet group chat into an actual evening.",
     intro:
-      "Dan supplies much of the group’s visible energy: initiating plans, introducing people, keeping conversation moving, and making sure everyone feels included.",
+      "The tests called Dan a catalyst; the chat strongly agrees. He convenes, checks the social temperature, asks the most questions, and keeps warmth and humor circulating.",
     brings: [
       "Novelty, humor, and emotional engagement",
-      "The quickest reach-out when the group goes quiet",
+      "Questions that pull people into the conversation",
       "A strong instinct for inclusion and shared fun",
     ],
     watch: [
-      "Overcommitting—or mistaking politeness for enthusiasm",
-      "Steering through helpfulness when he feels anxious",
-      "Dodging hard feelings with a joke or a new plan",
+      "Taking responsibility for whether everyone is having a good time",
+      "Offering more possibilities than four calendars can absorb",
+      "Letting humor carry a feeling that deserves one direct sentence",
     ],
     scores: [
       { type: 2, value: 84 },
@@ -51,20 +51,20 @@ const people = [
   {
     name: "Alex",
     monogram: "AK",
-    role: "The driver & strategist",
+    role: "The infrastructure & edge-case resolver",
     accent: "blue",
     types: "3 · 5 · 6",
-    tagline: "Turns ‘we should’ into a reservation and a calendar invite.",
+    tagline: "Finds the link, the location, the wait-list exception, and Plan B.",
     intro:
-      "Alex brings direction, organization, and ambition. The strong Five and Six scores add analysis, skepticism, and risk-awareness to a classic Three drive.",
+      "Alex is quieter in the chat than the score-based ‘driver’ label suggests, but repeatedly turns ambiguity into usable infrastructure: access, locations, invitations, rain checks, and concrete options.",
     brings: [
-      "Concrete plans from vague ideas",
-      "Quality, momentum, and thoughtful recommendations",
-      "Attention to whether the friendship is actually maintained",
+      "Concrete options when logistics get fuzzy",
+      "Access, links, fallback plans, and edge-case handling",
+      "Attention to getting the full squad in one place",
     ],
     watch: [
       "Treating friendship like a system to optimize",
-      "Taking over logistics when others move slowly",
+      "Going quiet while busy, then re-entering in solution mode",
       "Solving feelings instead of sitting with them",
     ],
     scores: [
@@ -84,21 +84,21 @@ const people = [
   {
     name: "Lily",
     monogram: "LL",
-    role: "The analyst & standards keeper",
+    role: "The idea scout & momentum engine",
     accent: "violet",
     types: "5 · 1 · 4 · 6",
-    tagline: "Finds the second-order consequence before dessert arrives.",
+    tagline: "Finds the second-order consequence—and the next interesting room.",
     intro:
-      "Lily contributes intellectual depth, discernment, and honesty—valuing substance over social performance while retaining a strong feel for authenticity.",
+      "The scores suggested a detached analyst; the chat shows a highly active scout. Lily starts conversation cycles, proposes plans, shares worlds to explore, offers practical help, and brings the longest-form thinking.",
     brings: [
       "Sharp pattern recognition and principled standards",
-      "Serious one-on-one conversation",
-      "Nuance, authenticity, and constructive skepticism",
+      "A steady stream of events, ideas, and cultural discovery",
+      "Long-form reflection plus practical follow-through",
     ],
     watch: [
-      "Staying detached until everything makes sense",
-      "Correcting when someone mainly wants empathy",
-      "Withholding concerns, then delivering the full critique",
+      "Letting the number of interesting options outrun available energy",
+      "Processing emotion through explanation before naming the feeling",
+      "Offering so much context that the actual request hides inside it",
     ],
     scores: [
       { type: 5, value: 21 },
@@ -117,21 +117,21 @@ const people = [
   {
     name: "Tina",
     monogram: "TH",
-    role: "The stabilizer & quiet observer",
+    role: "The reflective connector & meaning-maker",
     accent: "sage",
     types: "5 · 6 · 9 · 3",
-    tagline: "The calm center of gravity everyone quietly depends on.",
+    tagline: "Turns experience into reflection without disappearing from the action.",
     intro:
-      "Tina is the group’s naturally low-drama, accommodating presence: calm, loyal, observant, capable, and good at understanding everyone’s perspective.",
+      "The Enneagram suggested a quiet stabilizer. The chat adds a crucial correction: Tina is the second-most active voice, expresses real preferences, initiates threads, and shares emotionally candid reflection.",
     brings: [
       "Continuity, steadiness, and loyalty",
       "A calm read of several points of view",
-      "Competence without the need to advertise it",
+      "Personal reflection that deepens the group’s conversations",
     ],
     watch: [
-      "Saying ‘I’m fine’ when she has a preference",
-      "Withdrawing instead of raising a disagreement",
-      "Letting small resentments quietly accumulate",
+      "Turning self-understanding into another research project",
+      "Overpreparing in order to feel safe, then overcorrecting",
+      "Giving every interpretation a fair hearing before choosing one",
     ],
     scores: [
       { type: 5, value: 25 },
@@ -152,50 +152,50 @@ const people = [
 const pairings = [
   {
     people: "Dan × Alex",
-    label: "The ignition switch",
-    chemistry: "Plans, social opportunity, and momentum appear very quickly.",
-    risk: "Escalation. Dan adds possibilities while Alex adds scope and standards; a simple dinner becomes an optimized mini-festival.",
-    rule: "Dan generates options. Alex does not turn every option into a commitment.",
+    label: "Invitation meets infrastructure",
+    chemistry: "Dan creates the human pull; Alex handles the access, specificity, and fallback route.",
+    risk: "Both can care about the gathering while assuming the other has converted interest into commitment.",
+    rule: "End the thread with one owner, one time, and one actual yes.",
     color: "coral-blue",
   },
   {
     people: "Alex × Lily",
-    label: "The thinking table",
-    chemistry: "Mutual respect around intelligence, rigor, and high standards.",
-    risk: "Lily’s critique can hit Alex’s competence sensitivity; Alex’s defense can feel like image management instead of curiosity.",
-    rule: "Ask: ‘What do you think I’m missing?’ before arguing the case.",
+    label: "Systems meets scout",
+    chemistry: "Lily surfaces interesting worlds; Alex finds the practical route into them.",
+    risk: "An idea can become an optimization problem before either checks whether the other simply wanted to share it.",
+    rule: "Clarify whether this is discovery, discussion, or a plan.",
     color: "blue-violet",
   },
   {
     people: "Alex × Tina",
-    label: "Direction meets ballast",
-    chemistry: "Alex provides momentum; Tina provides stability and perspective.",
-    risk: "False consent. No objection is not the same as an actual preference.",
-    rule: "Ask: ‘What would you choose if the decision were entirely yours?’",
+    label: "Structure meets reflection",
+    chemistry: "Alex sharpens the next step; Tina expands the meaning and motivations around it.",
+    risk: "A logistical answer and a reflective answer can pass each other without meeting.",
+    rule: "Answer both questions: what are we doing, and what is this really about?",
     color: "blue-sage",
   },
   {
     people: "Dan × Lily",
-    label: "Spark meets prism",
-    chemistry: "Dan draws Lily out; Lily keeps Dan grounded and honest.",
-    risk: "Dan can overwhelm with spontaneity; Lily’s coolness can register as rejection.",
-    rule: "Dan leaves quiet un-fixed. Lily makes affection explicit.",
+    label: "Spark meets scout",
+    chemistry: "Dan creates warmth around Lily’s stream of ideas, events, and unexpected connections.",
+    risk: "The opportunity feed gets exciting faster than the calendar gets realistic.",
+    rule: "Enjoy ten possibilities; commit to one.",
     color: "coral-violet",
   },
   {
     people: "Dan × Tina",
-    label: "Energy meets ease",
-    chemistry: "An easy pairing: activation balanced by calm.",
-    risk: "Dan fills every silence while Tina continually adapts.",
-    rule: "Dan leaves space. Tina makes real requests instead of subtle signals.",
+    label: "Warmth meets depth",
+    chemistry: "Dan’s curious questions give Tina’s reflective side somewhere lively to land.",
+    risk: "A thoughtful thread can keep expanding while the concrete invitation remains implicit.",
+    rule: "Turn shared curiosity into one date on the calendar.",
     color: "coral-sage",
   },
   {
     people: "Lily × Tina",
-    label: "The quiet room",
-    chemistry: "Low-pressure, focused conversation with mutual respect for independence.",
-    risk: "Inertia. Both wait, assume space is preferred, and accidentally let connection decay.",
-    rule: "Alternate initiation—and move from analysis to one concrete action.",
+    label: "The active idea loop",
+    chemistry: "A notably engaged exchange of reflection, discovery, vulnerability, and Type Five recognition.",
+    risk: "Each new model can produce three more fascinating models before anything feels settled.",
+    rule: "Keep the rabbit hole; add a stopping point and a next step.",
     color: "violet-sage",
   },
 ];
@@ -203,18 +203,18 @@ const pairings = [
 const failureModes = [
   {
     n: "01",
-    title: "Intellectual intimacy replaces emotional intimacy",
-    body: "The group can discuss psychology, careers, and relationships in depth while still avoiding: ‘That hurt,’ ‘I miss you,’ or ‘I need more from this friendship.’ Understanding someone conceptually is not the same as making them feel understood.",
+    title: "Coordination entropy eats the full squad",
+    body: "Interest is rarely the problem. Work, travel, health, parallel events, and four independent calendars are. The demonstrated danger is not rejection—it is repeatedly meeting in every combination except all four together.",
   },
   {
     n: "02",
-    title: "Conflict gets processed everywhere but the right place",
-    body: "Lily may analyze it. Tina may absorb it. Dan may reframe it. Alex may design a solution. None necessarily involves saying the uncomfortable thing directly to the person who needs to hear it.",
+    title: "Emotion stays one abstraction away",
+    body: "The chat contains real vulnerability and care, often translated through analysis, models, context, or humor. That is a genuine emotional dialect—but occasionally the headline still deserves to be said without the explanatory essay.",
   },
   {
     n: "03",
-    title: "Maintenance labor becomes invisible",
-    body: "Dan carries social energy; Alex carries planning. Lily and Tina contribute presence, insight, and reliability—valuable labor that is simply less visible. Each side can end up feeling unrecognized.",
+    title: "An event drop looks like a plan",
+    body: "The group is excellent at sharing interesting possibilities. A link, enthusiastic reaction, and calendar emoji can still leave four different interpretations of whether anything has actually been agreed.",
   },
   {
     n: "04",
@@ -223,23 +223,23 @@ const failureModes = [
   },
   {
     n: "05",
-    title: "The silent 2–2 split",
-    body: "Dan and Alex become the fast, outward-facing half; Lily and Tina become the reflective, slower half. One side feels held back. The other feels exhausted. The split does not need to become adversarial—but it needs to be named.",
+    title: "Warm cancellations conceal accumulated disappointment",
+    body: "The observed norm is healthy: constraints are stated directly and met with warmth. The remaining risk is becoming so gracious about every cancellation that nobody checks whether someone has quietly been missing the full group for months.",
   },
 ];
 
 const fieldRules = [
   {
     tag: "INVITE",
-    title: "Specific, with a clean exit",
-    body: "Give the plan enough structure for momentum and enough freedom for autonomy.",
-    quote: "Dinner Thursday at 7. I’m booking tomorrow. Genuine no-pressure opt-out.",
+    title: "Separate a drop from a plan",
+    body: "Interesting links are group oxygen. Label the moment when one becomes a real commitment.",
+    quote: "Event drop for now. If two people are in, let’s make it a plan.",
   },
   {
     tag: "DECIDE",
-    title: "Everyone names one preference",
-    body: "‘Anything is fine’ does not count unless it is genuinely true. This protects Tina from being steamrolled and gets Lily’s critique into the room before the decision.",
-    quote: "One real preference each—then we choose.",
+    title: "Use attendance states",
+    body: "The group already expresses preferences well. Make availability equally explicit so enthusiasm is not mistaken for confirmation.",
+    quote: "I’m in / interested but unconfirmed / sitting this one out.",
   },
   {
     tag: "REPAIR",
@@ -249,16 +249,100 @@ const fieldRules = [
   },
   {
     tag: "GATHER",
-    title: "Choose a format that fits",
-    body: "Small group. Defined activity. Unstructured time afterward. Plans made somewhat in advance. Novelty sometimes, not constantly.",
-    quote: "Dinner + walk beats a giant open-ended party.",
+    title: "Protect the full-squad date",
+    body: "Piggybacking on public events keeps the friendship moving. Occasionally choose one gathering whose entire point is all four Mandelbros being there.",
+    quote: "This one is not an event drop. This one is the reunion.",
   },
   {
     tag: "ROTATE",
-    title: "Share ownership visibly",
-    body: "Dan is not the permanent entertainer. Alex is not the permanent operations department. Lily and Tina periodically choose the activity and set its shape.",
-    quote: "Whose turn is it to choose the pace?",
+    title: "Name the emotional headline",
+    body: "Analysis and humor are already authentic forms of closeness here. Add one sentence that makes the feeling impossible to miss.",
+    quote: "The model is interesting. The headline is: I missed you.",
   },
+];
+
+const chatProfiles = [
+  {
+    name: "Dan",
+    accent: "coral",
+    test: "Catalyst & connector",
+    observed: "Convener & temperature-taker",
+    note: "The archive strongly confirms the social-energy hypothesis: he opens doors, asks the most questions, checks availability, and keeps humor moving.",
+    stats: [["190", "messages"], ["44", "questions"], ["45", "humor beats"]],
+    verdict: "Confirmed—with receipts.",
+  },
+  {
+    name: "Alex",
+    accent: "blue",
+    test: "Driver & strategist",
+    observed: "Infrastructure & edge-case resolver",
+    note: "The strategic instinct is visible, but not as conversational dominance. His contribution is leverage: access, locations, links, specificity, and fallback plans.",
+    stats: [["68", "messages"], ["10", "planning signals"], ["5", "shared links"]],
+    verdict: "Keep the function; lower the volume.",
+  },
+  {
+    name: "Lily",
+    accent: "violet",
+    test: "Analyst & standards keeper",
+    observed: "Idea scout & momentum engine",
+    note: "The biggest correction. Lily is not waiting on the sidelines: she starts threads, proposes plans, discovers rooms, offers help, and contributes the longest-form thinking.",
+    stats: [["141", "messages"], ["19", "fresh starts"], ["≈100", "avg. characters"]],
+    verdict: "The ‘passenger’ theory fails.",
+  },
+  {
+    name: "Tina",
+    accent: "sage",
+    test: "Stabilizer & quiet observer",
+    observed: "Reflective connector & meaning-maker",
+    note: "Also much more active than predicted: the second-most messages, clear preferences, genuine vulnerability, and a recurring instinct to interpret experience deeply.",
+    stats: [["176", "messages"], ["21", "questions"], ["11", "fresh starts"]],
+    verdict: "Steady, yes. Quiet, no.",
+  },
+];
+
+const comparisons = [
+  {
+    topic: "Who creates momentum?",
+    hypothesis: "Dan and Alex form the fast half; Lily and Tina risk becoming passengers.",
+    evidence: "Dan convenes, but Lily and Tina supply much of the sustained activity and many new conversation cycles.",
+    verdict: "REWRITE",
+  },
+  {
+    topic: "How emotion travels",
+    hypothesis: "Intellectual intimacy may replace emotional intimacy.",
+    evidence: "Vulnerability, concern, apologies, and affection are present—often wrapped in analysis and humor.",
+    verdict: "NUANCE",
+  },
+  {
+    topic: "What cancellations mean",
+    hypothesis: "Silence, false consent, and withdrawal could produce resentment.",
+    evidence: "Constraints are usually stated directly and met warmly. The visible problem is calendar friction, not rejection.",
+    verdict: "REPLACE",
+  },
+  {
+    topic: "Appreciation",
+    hypothesis: "The group should make appreciation more explicit.",
+    evidence: "Congratulations, thanks, concern, excitement, and ‘missed you’ energy are already recurring norms.",
+    verdict: "PROMOTE",
+  },
+  {
+    topic: "Optimization",
+    hypothesis: "Friendship could become another system that must perform efficiently.",
+    evidence: "Calendar tools and coordination are mostly self-aware comedy; shared events are used to reduce planning overhead.",
+    verdict: "WATCH",
+  },
+];
+
+const cultureSignals = [
+  "SideQuest & Fractal",
+  "event drops",
+  "AI slop",
+  "YCJDT energy",
+  "dinner logistics",
+  "film rankings",
+  "sports missions",
+  "personality rabbit holes",
+  "calendar-tech teasing",
 ];
 
 export default function Home() {
@@ -271,6 +355,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#cast">The four</a>
+          <a href="#field-notes">Chat evidence</a>
           <a href="#dynamics">Dynamics</a>
           <a href="#manual">Field manual</a>
         </nav>
@@ -371,29 +456,106 @@ export default function Home() {
         </p>
       </section>
 
+      <section className="field-notes-section" id="field-notes">
+        <div className="section">
+          <div className="field-notes-header">
+            <div>
+              <p className="kicker">02 / THE FIELD NOTES</p>
+              <h2>The tests are hypotheses.<br /><em>The chat is behavior.</em></h2>
+            </div>
+            <div className="evidence-intro">
+              <span className="evidence-stamp">WHATSAPP CHECK</span>
+              <p>
+                A read-only look at the locally stored Mandelbro-ts archive adds
+                a behavioral layer: who starts threads, asks questions, makes
+                plans, shares context, and keeps affection visible.
+              </p>
+              <small>577 stored message records · March–July 2026 · aggregate and paraphrased</small>
+            </div>
+          </div>
+
+          <div className="chat-profile-grid">
+            {chatProfiles.map((profile) => (
+              <article className={`chat-profile ${profile.accent}`} key={profile.name}>
+                <div className="chat-profile-title">
+                  <span>{profile.name.slice(0, 1)}</span>
+                  <h3>{profile.name}</h3>
+                </div>
+                <div className="hypothesis-shift">
+                  <p><small>TEST HYPOTHESIS</small>{profile.test}</p>
+                  <b>↓</b>
+                  <p><small>OBSERVED IN CHAT</small>{profile.observed}</p>
+                </div>
+                <p className="chat-note">{profile.note}</p>
+                <div className="chat-stats">
+                  {profile.stats.map(([value, label]) => (
+                    <p key={label}><strong>{value}</strong><span>{label}</span></p>
+                  ))}
+                </div>
+                <p className="profile-verdict">{profile.verdict}</p>
+              </article>
+            ))}
+          </div>
+
+          <div className="comparison-board">
+            <div className="comparison-heading">
+              <p className="kicker">HYPOTHESIS ↔ EVIDENCE</p>
+              <h3>What survives contact with the group chat?</h3>
+            </div>
+            <div className="comparison-labels" aria-hidden="true">
+              <span>Question</span><span>Enneagram read</span><span>Chat evidence</span><span>Call</span>
+            </div>
+            {comparisons.map((item) => (
+              <article className="comparison-row" key={item.topic}>
+                <h4>{item.topic}</h4>
+                <p>{item.hypothesis}</p>
+                <p>{item.evidence}</p>
+                <strong>{item.verdict}</strong>
+              </article>
+            ))}
+          </div>
+
+          <div className="culture-band">
+            <div>
+              <p className="kicker">THE MANDELBRO DIALECT</p>
+              <h3>A friendship built from interesting rooms, affectionate teasing, and one more link.</h3>
+            </div>
+            <div className="culture-cloud">
+              {cultureSignals.map((signal, index) => <span key={signal}>{index + 1}. {signal}</span>)}
+            </div>
+          </div>
+
+          <p className="evidence-note">
+            “Fresh start” means the first stored message after at least 24 hours of group silence.
+            Counts describe this local slice; they are not personality scores or a leaderboard.
+            No private messages, phone identifiers, or raw links are reproduced here.
+          </p>
+        </div>
+      </section>
+
       <section className="recipe-section" id="dynamics">
         <div className="section recipe-inner">
           <div className="section-heading light">
-            <p className="kicker">02 / THE CHEMISTRY</p>
+            <p className="kicker">03 / THE CHEMISTRY</p>
             <h2>The group recipe</h2>
             <p>Activation, planning, judgment, and emotional regulation—each supplied by a different person.</p>
           </div>
           <div className="role-equation" aria-label="Group role equation">
-            <div className="role-block coral"><span>Dan</span><strong>creates<br />energy</strong></div>
+            <div className="role-block coral"><span>Dan</span><strong>creates<br />welcome</strong></div>
             <i>+</i>
-            <div className="role-block blue"><span>Alex</span><strong>creates<br />momentum</strong></div>
+            <div className="role-block blue"><span>Alex</span><strong>creates<br />infrastructure</strong></div>
             <i>+</i>
-            <div className="role-block violet"><span>Lily</span><strong>creates quality<br />control</strong></div>
+            <div className="role-block violet"><span>Lily</span><strong>creates<br />discovery</strong></div>
             <i>+</i>
-            <div className="role-block sage"><span>Tina</span><strong>creates<br />stability</strong></div>
+            <div className="role-block sage"><span>Tina</span><strong>creates<br />meaning</strong></div>
           </div>
           <div className="recipe-warning">
             <span className="warning-mark">!</span>
             <div>
-              <p className="warning-label">THE TEMPO TRAP</p>
-              <h3>When the fast half sets the pace, the quiet half can become passengers.</h3>
+              <p className="warning-label">THE ATTENDANCE PARADOX</p>
+              <h3>Everyone is engaged. Getting all four people into the same room is still advanced mathematics.</h3>
             </div>
-            <p>Agreement can look exactly like depletion—right up until it becomes a cancellation.</p>
+            <p>The chat shows distributed effort and direct preferences. The friction is calendars—not a hidden fast half and slow half.</p>
           </div>
         </div>
       </section>
@@ -401,31 +563,31 @@ export default function Home() {
       <section className="section cycle-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="kicker">THE PREDICTABLE LOOP</p>
-            <h2>How a plan becomes<br />a tiny diplomatic incident.</h2>
+            <p className="kicker">THE OBSERVED LOOP</p>
+            <h2>How four interested people<br />become a party of three.</h2>
           </div>
-          <p>The core risk is not bad intent. It’s speed, false consent, and everyone interpreting silence through their own needs.</p>
+          <p>The archive shows plenty of interest, warmth, and clean communication. The recurring opponent is ordinary adult-life geometry.</p>
         </div>
         <ol className="cycle-list">
-          <li className="coral"><span>01</span><b>Dan</b><p>proposes something enthusiastically</p></li>
-          <li className="blue"><span>02</span><b>Alex</b><p>turns it into a concrete, ambitious plan</p></li>
-          <li className="violet"><span>03</span><b>Lily</b><p>privately questions whether it is worthwhile</p></li>
-          <li className="sage"><span>04</span><b>Tina</b><p>says she is flexible</p></li>
-          <li className="dark"><span>05</span><b>Dan + Alex</b><p>assume everyone is fully committed</p></li>
-          <li className="cream"><span>06</span><b>Lily or Tina</b><p>withdraws, cancels, or contributes minimally</p></li>
+          <li className="coral"><span>01</span><b>Event drop</b><p>someone shares an interesting room, meal, match, talk, or side quest</p></li>
+          <li className="blue"><span>02</span><b>Fast interest</b><p>several Mandelbros light up and begin comparing context</p></li>
+          <li className="violet"><span>03</span><b>Calendar physics</b><p>work, travel, health, and parallel events enter the equation</p></li>
+          <li className="sage"><span>04</span><b>Clean signals</b><p>constraints, preferences, and apologies are usually stated directly</p></li>
+          <li className="dark"><span>05</span><b>Subgroup goes</b><p>whoever can make it keeps the friendship in motion</p></li>
+          <li className="cream"><span>06</span><b>Warm reboot</b><p>the debrief lands and the full-squad gathering gets rescheduled</p></li>
         </ol>
         <div className="aftermath">
-          <div><span className="dot coral-dot" /><strong>Dan feels unwanted.</strong></div>
-          <div><span className="dot blue-dot" /><strong>Alex feels others are unreliable.</strong></div>
-          <div><span className="dot violet-dot" /><strong>Lily feels pressured.</strong></div>
-          <div><span className="dot sage-dot" /><strong>Tina feels nobody actually asked.</strong></div>
+          <div><span className="dot coral-dot" /><strong>No villain emerges.</strong></div>
+          <div><span className="dot blue-dot" /><strong>The subgroup stays alive.</strong></div>
+          <div><span className="dot violet-dot" /><strong>Affection remains visible.</strong></div>
+          <div><span className="dot sage-dot" /><strong>The reunion remains pending.</strong></div>
         </div>
       </section>
 
       <section className="pairings-section">
         <div className="section">
           <div className="section-heading">
-            <p className="kicker">03 / ONE-ON-ONE</p>
+            <p className="kicker">04 / ONE-ON-ONE</p>
             <h2>Six pairings.<br />Six operating manuals.</h2>
           </div>
           <div className="pairings-grid">
@@ -452,7 +614,7 @@ export default function Home() {
       <section className="section failure-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="kicker">04 / THE GLITCHES</p>
+            <p className="kicker">05 / THE GLITCHES</p>
             <h2>Five ways this<br />excellent system fails.</h2>
           </div>
           <p>No villains here. Just four smart people using their best coping strategies at the same time.</p>
@@ -471,9 +633,9 @@ export default function Home() {
       <section className="manual-section" id="manual">
         <div className="section">
           <div className="manual-title">
-            <p className="kicker">05 / THE FIELD MANUAL</p>
+            <p className="kicker">06 / THE FIELD MANUAL</p>
             <h2>Less pressure.<br /><em>More signal.</em></h2>
-            <p>The broad prescription: Dan and Alex create less pressure; Lily and Tina create more visible engagement.</p>
+            <p>The updated prescription: keep the distributed energy, preserve the warmth, and make the difference between an interesting possibility and an actual plan unmistakable.</p>
           </div>
           <div className="rules-grid">
             {fieldRules.map((rule) => (
@@ -488,8 +650,8 @@ export default function Home() {
 
           <div className="appreciation">
             <div>
-              <p className="kicker">THE RIGHT SIGNAL, DELIVERED CLEARLY</p>
-              <h2>Say the quiet part out loud.</h2>
+              <p className="kicker">ALREADY A GROUP STRENGTH</p>
+              <h2>Keep saying the quiet part out loud.</h2>
             </div>
             <div className="appreciation-lines">
               <p className="coral"><b>Dan</b><span>“I enjoy being around you. Thank you for bringing us together.”</span></p>
@@ -505,7 +667,7 @@ export default function Home() {
         <div className="footer-big">Keep the group chat alive.</div>
         <div className="footer-bottom">
           <p>Made for Dan, Alex, Lily & Tina <span>✦</span> July 2026</p>
-          <p className="disclaimer">A playful reflection based on self-reported Enneagram results—not a diagnosis, destiny, or substitute for asking what someone actually wants.</p>
+          <p className="disclaimer">A playful reflection based on self-reported Enneagram results and aggregate patterns from a locally stored group-chat slice—not a diagnosis, destiny, leaderboard, or substitute for asking what someone actually wants.</p>
         </div>
       </footer>
     </main>
